@@ -5,13 +5,13 @@
                 <p class="google-font mb-1" style="font-weight: 350;font-size:180%">
                     <b>
                         Our
-                        <span style="color: #1a73e8;">Events</span> 
+                        <span style="color: #1a73e8;">Events</span>
                         &
-                        <span style="color: #1a73e8;">Meetups</span> 
-                    </b> 
+                        <span style="color: #1a73e8;">Meetups</span>
+                    </b>
                 </p>
-                
-                <!-- <p class="google-font mb-0" style="font-size:180%">Our Events & Meetups</p> -->
+
+                <p class="google-font mb-0" style="font-size:180%">Our Events & Meetups</p>
                 <p class="google-font mt-0" style="font-size:95%">At sessions that span from the technical to the visionary, let’s celebrate and discover what the technologies can enable: how product innovation, open source, and ML and AI can propel enterprises forward and solve the big problems that impact all of us.</p>
                 <router-link
                     to="/events"
@@ -50,7 +50,7 @@
                        </v-col>
                    </v-row>
 
-                
+
 
                </v-container>
             </v-col>
@@ -91,7 +91,7 @@ import { mapState } from 'vuex'
                         this.notFoundEventFlag = true;
                         this.showLoader = false;
                     }
-                    
+
                 }).catch(e=>{
                     this.errorMsg = "Issue found with " + e;
                     this.showLoader = false;
@@ -102,5 +102,5 @@ import { mapState } from 'vuex'
 </script>
 
 <style scoped>
-   
+
 </style>

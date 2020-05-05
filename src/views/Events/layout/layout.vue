@@ -6,7 +6,8 @@
           <v-col cols="12" md="12" sm="12" lg="12" class="py-0">
             <v-row class="py-0">
               <v-col cols="12" md="12" class="pa-0">
-                <v-img
+               <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_mbrsjv0thn seo=false videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/mbrsjv0thn/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
+                <!-- <v-img
                   :src="getImgUrl(data.image, 'eventbanner.jpg')"
                   :lazy-src="getImgUrl(data.image, 'eventbanner.jpg')"
                   width="100%"
@@ -28,7 +29,7 @@
                   <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
                     <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
                   </v-layout>
-                </v-img>
+                </v-img> -->
               </v-col>
             </v-row>
             <v-row class="blue">

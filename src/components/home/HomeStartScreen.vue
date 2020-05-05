@@ -21,7 +21,7 @@
           style="font-weight: 350;font-size:230%"
         >
           <b>
-            Make good things
+            MAKE GOOD THINGS
             <span style="color: #1a73e8;">together</span>.
           </b>
         </p>
